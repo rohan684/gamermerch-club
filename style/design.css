@@ -1,0 +1,357 @@
+.nav{
+    background-color: #0b1022;
+    color: white;
+    position: fixed;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 1.6vh;
+}
+.box
+{
+    border: 2px solid black;
+    width: 100%;
+    height:500px;
+    overflow: hidden;
+}
+.menu
+{
+    margin-left: 30px;
+    border-radius: 40px;
+}
+.menu:hover
+{
+    background-color: blueviolet;
+}
+.brand_logo
+{
+    width: 14vw;
+}
+.product_image
+{
+    width:100%;
+    height:60%;
+}
+/* we keep minor safe*/
+.cards_container
+{
+    background-color: #f3f1f0;;
+    padding: 40px 4vw 47px 1vw ;
+}
+.hh5
+{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.hh6
+{
+    width: 85%;
+    text-align: center;
+    opacity: .6;
+    font-size: 1rem;
+    margin-left: 13vw;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.cards
+{
+    width: 27%;
+    padding:30px 24px 30px 24px;
+    margin-top: 20px;
+    height:227px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 0px 0px grey;
+    transition:  box-shadow .6s ease-out;
+    box-shadow: .8px .9px 3px grey;
+}
+.cards:hover{ 
+    box-shadow: 1px 8px 20px grey;
+    transition:  box-shadow .6s ease-in;
+ }
+.card_images
+{
+    margin-left: 40%;
+}
+.cc1
+{
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.cc2
+{
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: grey;
+    line-height: 4mm;
+    font-size: 13px;
+}
+.brand_icon
+{
+    margin-right: 7%;
+}
+.foot
+{
+    background-color: #000b33;
+    color: white;
+    padding: 50px;
+    padding-bottom: 8px;
+}
+.brand_icon2
+{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 700;
+    margin-left: 4%;
+    font-size: 15px;
+}
+/*customers */
+.aa1
+{
+    text-align: center;
+    font-weight: 500;
+}
+.aa2
+{
+    text-align: center;
+    width: 70%;
+    margin-left: 12vw;
+    opacity: .5;
+    font-weight: bold;
+}
+.tst1
+{
+    text-align: center;
+    font-family:'Merriweather Sans', sans-serif;
+    font-size: 15px;
+    line-height: 2;
+    font-weight: 500;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tst2
+{
+    align-items: center;
+    border: 8px solid #803bec;
+    border-radius: 70%;
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.indicator_button
+{
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: #803bec;
+    color: white;
+}
+.w3-badge 
+{
+    height:15px;
+    width:15px;
+    padding:0;
+}
+.mySlides 
+{
+    display:none
+}
+/* Contact us page */
+/* starts here */
+.bkgimg
+{
+    width: 100%;
+    height:400px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid black;
+    background-image: url("../Images/b1.jpg");
+}
+.con1
+{
+    color: white;
+    margin-top: 16%;
+    text-decoration: underline;
+    margin-left: 40vw;
+    font-weight: 800;
+}
+.hh31
+{
+    font-weight: 1000;
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hh32
+{
+    margin-left: 13%; 
+    color: grey; 
+    line-height: 7px; 
+    margin-bottom: 31px;
+}
+.input1
+{
+    background-color: rgb(221, 219, 219);
+    border: none;
+    height: 37px;
+    padding-left: 10px;
+    width: 95%;
+}
+.input2
+{
+    background-color: rgb(221, 219, 219);
+    border: none;
+    padding-left: 10px;
+    height: 37px;
+    width: 100%;
+}
+.input3
+{
+    background-color: rgb(221, 219, 219);
+    border: none; 
+    padding-left: 10px;
+    width: 100%;
+}
+.btns
+{
+    width: 100%;
+    height: 37px;
+    font-family: "calibri";
+    font-weight: 800;
+    font-size: 20px;
+    background-color: #fdd985;
+    border: none;
+}
+.btns:hover
+{
+    background-color: green;
+}
+/*--------><----------*/
+/* About us page*/
+/*--------><----------*/
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Merriweather+Sans&display=swap');
+
+.about_text
+{
+    width: 80%;
+    font-family: 'Dongle', sans-serif;
+    font-weight: 500;
+    color: black;
+    font-size: .18in;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.iw0
+{
+    font-size:20px;
+    margin-top: 5px; 
+    padding-bottom: 5px;
+}
+.iw1
+{
+    padding:20px;
+    padding-top: 45px; 
+    padding-bottom: 45px;
+    padding-left:85px; 
+    background-color:#F0EFEE;
+}
+.iw2
+{
+    word-spacing: 1ch;
+    margin-left:2vw; 
+    font-family: calibri;
+}
+.iw2_1
+{
+    display:none;
+}
+.iw4
+{
+    margin-left: 12%;
+}
+.iw5
+{
+    margin-left:35vw;
+}
+.iw6
+{
+    margin-top: 50px;
+    margin-left:21vw;
+}
+@media (max-width: 480px) 
+{
+    .iw1
+    {
+        padding-left: 24px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .iw2
+    {
+        margin-left: 0vw;
+        display: none;
+    }
+    .iw2_1
+    {
+        display: inline;
+        font-size: 15px;
+        margin-left: -10px;
+        margin-bottom: -13px;
+    }
+    .nav
+    {
+        padding-left: -500px;
+        padding-bottom: 3px;
+        height: auto;
+    }
+    .nm1
+    {
+        width: 80%;
+        margin-top: 10px;
+    }
+    .iw3
+    {
+        margin-top: -10vh;
+        padding-left: 5.1px;
+    }
+    .iw4
+    {
+        margin-left: 2%;
+    }
+    .aa2
+    {
+        width: 95%;
+        margin-left: 2%;
+    }
+    .tst1
+    {
+        width: 85%;
+    }
+    .tst2
+    {
+        width: 42%;
+    }
+    .hh6
+    {
+        width: 90%;
+        margin-left: 24px;
+        text-align: justify;
+    }
+    .iw5
+    {
+        margin-left:12vw;
+    }
+    .iw6
+    {
+        margin-top: 50px;
+        margin-left:5vw;
+    }
+    .iw7
+    {
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/design.css">
+  <link rel="stylesheet" href="style/design2.css">
+  <script type="text/javascript" src="file.js"></script>
+  <script src="https://kit.fontawesome.com/2ca48ba5ba.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">  
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <title>Signin</title>
+  <style>
+    .id2
+    {
+      margin-top:105vh
+    }
+    @media (max-width: 480px) 
+    {
+      .container
+      {
+        margin-left: 2.5%;
+        margin-bottom: 0%;
+        width: 95%;
+        margin-top: 100px;
+      }
+      .sn1
+      {
+        font-size:25px;
+      }
+      .sign-in-container
+      {
+        left: 0;
+	      width: 100%;
+      }
+      .overlay
+      {
+        left: 0%;
+        top:100%;
+      }
+      .id2
+      {
+        margin-top: 80vh;
+      }
+    }
+    .lc1
+    {
+        padding-right: 5vw;
+    }
+  </style>
+</head>
+<body>
+  
+<div class="w3-row" >  
+  <!--Navigation-->
+  <div class="w3-top w3-row w3-bar nav " style="z-index: 2;">
+    <div class="w3-col m4 s6" >
+      <a href="index.html" target="_self"><img src="Images/logoagain.png" alt="not supported" class="nm1" width="40%" style="margin-left: 2vw;"></a>
+    </div>
+    <div class="w3-col m8 s6 lc1">
+      <a href="index.html#skins" class="w3-bar-item w3-btn w3-hide-small menu w3-right">Buy</a>
+      <a href="#" class="w3-bar-item w3-btn w3-hide-small menu w3-right">Sell</a>
+      <a href="index.html" class="w3-bar-item w3-btn w3-hide-small menu w3-right" >Home</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-margin-bottom w3-hide-large w3-hide-medium w3-hover-black" onclick="myMenu()"><i class='fas fa-bars iw0'></i></a>
+    </div>
+    <div id="phone" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
+        <a href="index.html" class="w3-bar-item w3-button">Home</a>
+        <a href="index.html#skins" class="w3-bar-item w3-button">Buy</a>
+        <a href="#" class="w3-bar-item w3-button">Sell</a>
+      </div>
+</div>
+<!--Navigation Ending-->  
+  <div class="container" id="container">
+    <div class="form-container sign-up-container">  
+      <form action="#">
+        <h1 class="sn1">Create Account</h1>
+        <div class="social-container">
+          <a href="#" class="social as1 w3-hover-black"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social as1 w3-hover-black"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#" class="social as1 w3-hover-black"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <span style="margin-bottom: 5px;">or use your email for registration</span>
+        <input type="text" placeholder="Name" style="margin-bottom: 5px;" /required>
+        <input type="email" placeholder="Email" style="margin-bottom: 5px;"/required>
+        <input type="password" placeholder="Password" style="margin-bottom: 5px;" /required>
+        <button class="w3-hover-green w3-hover-border-green" style="margin-top: 10px;">Sign Up</button>
+      </form>
+    </div>
+    <div class="form-container sign-in-container">
+      <form action="#">
+        <h1 class="w3-white sn1">Sign in</h1>
+        <div class="social-container">
+          <a href="#" class="social as1 w3-hover-black"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social as1 w3-hover-black"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#" class="social as1 w3-hover-black"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <span style="margin-bottom: 5px;">or use your account</span>
+        <input type="email" placeholder="Email" style="margin-bottom: 5px;"/required>
+        <input type="password" placeholder="Password" style="margin-bottom: 5px;"/required>
+        <a href="#" class="as1 w3-hover w3-hover-text-red">Forgot your password?</a>
+        <button class="w3-hover-green w3-hover-border-green">Sign In</button>
+      </form>
+    </div>
+    <div class="overlay-container">
+      <div class="overlay">
+        <div class="overlay-panel overlay-left">
+          <h1>Welcome Back!</h1>
+          <p>To keep connected with us please login with your personal info</p>
+          <button class="ghost w3-hover-white" id="signIn">Sign In</button>
+        </div>
+        <div class="overlay-panel overlay-right">
+          <h1>Hello, Gamers!</h1>
+          <p>Enter your personal details and start journey with us</p>
+          <button class="ghost w3-hover-white" id="signUp">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Footer-->
+<footer class="foot id2">
+    <div class="iw5">
+        <a href="#" class="brand_icon"><img src="Images/f.png" alt="not_supported"></a>
+        <a href="https://www.linkedin.com/company/gamermerch-club" target="_blank" class="brand_icon"><img src="Images/l.png" alt="not_supported"></a>
+        <a href="#" class="brand_icon"><img src="Images/i.png" alt="not_supported"></a>
+        <a href="#" class="brand_icon"><img src="Images/t.png" alt="not_supported"></a>
+    </div>
+
+    <div class="w3-bar iw6">
+        <a href="signin.html" class="w3-bar-item w3-btn brand_icon2" >Sell</a>
+        <a href="index.html#skin" class="w3-bar-item w3-btn brand_icon2">Buy</a>
+        <a href="index.html#review" class="w3-bar-item w3-btn brand_icon2">Review</a>
+        <a href="#" class="w3-bar-item w3-btn brand_icon2">FAQ</a>
+        <a href="#" class="w3-bar-item w3-btn brand_icon2">Terms</a>
+    </div>
+
+    <div>
+        <p class="iw7" style="text-align: center;margin-top: 50px;">Copyright © 2021 - Gamermerch. All rights reserved</p>
+    </div>
+</footer>
+
+<script>
+  const signUpButton = document.getElementById('signUp');
+  const signInButton = document.getElementById('signIn');
+  const container = document.getElementById('container');
+
+  signUpButton.addEventListener('click', () => {
+    container.classList.add("right-panel-active");
+  });
+
+  signInButton.addEventListener('click', () => {
+    container.classList.remove("right-panel-active");
+  });
+</script>
+  
+</body>
+</html>
